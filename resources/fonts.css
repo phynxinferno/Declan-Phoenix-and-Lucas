@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Erotica';
+    src: url(./fonts/EroticaBigPro.ttf);
+}
+@font-face {
+    font-family: 'Red Hat';
+    src: url(./fonts/Prompt/Prompt-Light.ttf);
+}
+@font-face {
+    font-family: 'Prompt';
+    src: url(./fonts/Prompt/Prompt-Light.ttf);
+}
+@font-face {
+    font-family: 'M Plus';
+    src: url(./fonts/M_PLUS_1/MPLUS1-VariableFont_wght.ttf);
+}
