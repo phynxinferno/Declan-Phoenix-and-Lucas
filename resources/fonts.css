@@ -14,3 +14,7 @@
     font-family: 'M Plus';
     src: url(./fonts/M_PLUS_1/MPLUS1-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: 'Playfair';
+    src: url(./fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
