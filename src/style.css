@@ -1,4 +1,6 @@
 @import url(../resources/fonts.css);
+@keyframes move {
+}
 body {
     font-family: 'Prompt';
     background-color: #333333;
@@ -13,30 +15,35 @@ body {
     font-family: 'Playfair';
     color: #ffffff;
     text-align: left;
-    font-size: 50pt;
+    font-size: 100pt;
     margin-left: 1%;
     box-shadow: 10px 10px #2d4b0c, 20px 20px #a13e3e;
     position: relative;
-    width: 30%;
+    width: 40%;
     left: 0;
 }
-
 .titleContainer {
     font-family: 'Playfair';
     color: #ffffff;
     text-align: left;
-    font-size: 50pt;
     margin-left: 1%;
     position: relative;
-    width: 30%;
+    width: 50%;
     left: 0;
 
+}
+.heading {
+    font-size: 40pt;
 }
 #subTitle {
     text-align: left;
     position: absolute;
     top: 6%;
     left: 1%;
+}
+#bottomBar {
+    position: absolute;
+    bottom: 0;
 }
 b {
     font-family: 'M Plus';
@@ -46,14 +53,53 @@ span {
 }
 td {
     position: relative;
-    width: 10%;
+    width: 20%;
 }
 tr {
     position: relative;
 }
+.break {
+    width: 10%;
+    position: relative;
+}
+.feature {
+    background-color: #2d4b0c;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0px #a13e3e;
+    transition: 0.5s;
+}
+.feature:hover {
+    box-shadow: 0px 10px #a13e3e;
+    transform: scale(1.05);
+}
+.feature img {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
 .heading {
     font-family: 'Playfair';
     color: #ffffff;
+}
+.standardButton {
+    height: 50px;
+    width: 15%;
+    background-color: #a13e3e;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.standardButtonText {
+    font-size: 15pt;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-55%);
+    position: inherit;
 }
 #nav {
     list-style-type: none;
@@ -90,9 +136,27 @@ tr {
     position: absolute;
     width: 100%;
     top: 0;
+    height: 650px;
     z-index: -1;
+    background: url(../resources/images/testClip.);
+    box-shadow:inset 0 0 0 2000px rgba(34, 34, 34, 0.829);
+    background-size:cover;
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
 }
 #mainContent {
     position: absolute;
-    top: 25%;
+    top: 600px;
 }
+/*
+"A car for the daring ones" - Transport Safety Commission
+"Own the road." - Lucas has Bovid Legal Team
+"
+
+
+
+
+
+
+
+
+*/
