@@ -162,7 +162,23 @@ tr {
     clip-path: polygon(0 14%, 100% 0, 100% 86%, 0% 86%);
     overflow:visible;
 }
+.smol {
+    font-size: 1em;
+}
+#reviews {
+    text-align: center;
+    margin-left: auto;
+    position: relative;
+    bottom: 10%;
+    width: 100%;
+}
+#bottomBar {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 /*
-"A car for those who dare" - Transport Safety Commission
-"Own the road." - Lucas has Bovid Legal Team
+"A car for those who dare" - Transport Safety Association
+"Own the road" - Lucas has Bovid Legal Team
 */
