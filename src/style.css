@@ -38,8 +38,8 @@ body {
 #subTitle {
     text-align: left;
     position: absolute;
-    top: 6%;
-    left: 1%;
+    top: 3%;
+    left: 2.5%;
 }
 #bottomBar {
     position: absolute;
@@ -47,6 +47,7 @@ body {
 }
 b {
     font-family: 'M Plus';
+    font-size: 20pt;
 }
 span {
     font-family: 'M Plus';
@@ -68,12 +69,15 @@ tr {
     text-align: center;
     box-shadow: 0px 0px #a13e3e;
     transition: 0.5s;
+    color: #eeeeee;
 }
 .feature:hover {
     box-shadow: 0px 10px #a13e3e;
     transform: scale(1.05);
+    background-color: #33570d;
+    color: #ffffff
 }
-.feature img {
+.feature video {
     position: relative;
     width: 90%;
     height: auto;
@@ -92,6 +96,12 @@ tr {
     position: absolute;
     border-radius: 40px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.standardButton:hover {
+    background-color: #b33f3f;
+    transform: scale(1.05), translate(-50%, 0);
+    width: 15.75%;
 }
 .standardButtonText {
     font-size: 15pt;
@@ -138,7 +148,7 @@ tr {
     top: 0;
     height: 650px;
     z-index: -1;
-    background: url(../resources/images/testClip.);
+    background: url(../resources/images/cinematic.mp4);
     box-shadow:inset 0 0 0 2000px rgba(34, 34, 34, 0.829);
     background-size:cover;
     clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
@@ -147,16 +157,12 @@ tr {
     position: absolute;
     top: 600px;
 }
+#stripe {
+    background-color: #692929;
+    clip-path: polygon(0 14%, 100% 0, 100% 86%, 0% 86%);
+    overflow:visible;
+}
 /*
-"A car for the daring ones" - Transport Safety Commission
+"A car for those who dare" - Transport Safety Commission
 "Own the road." - Lucas has Bovid Legal Team
-"
-
-
-
-
-
-
-
-
 */
